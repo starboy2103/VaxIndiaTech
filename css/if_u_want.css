@@ -1,0 +1,23 @@
+.back
+{
+    animation: changebg 16s ease-in-out infinite;
+}
+@keyframes changebg
+{
+    0%,100%
+    {
+        background-image: url(../img/image.png);
+    }
+    25%
+    {
+        background-image: url(../img/image1.png);
+    }
+    50%
+    {
+        background-image: url(../img/image2.png);
+    }
+    75%
+    {
+        background-image: url(../img/image3.png);
+    }
+}
